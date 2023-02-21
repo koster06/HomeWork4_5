@@ -17,7 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         Log.d("testMsg", "onCreate");
 
-        final Button btnStop = findViewById(R.id.button);
+        final Button btnStop = findViewById(R.id.button); //кнопками управляем активностями
         final Button btnResume = findViewById(R.id.button2);
         final Button btnDestr = findViewById(R.id.button4);
 
